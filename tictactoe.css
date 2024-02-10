@@ -1,0 +1,45 @@
+body {
+
+    background-color: #ffd166;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    height: 60vmin;
+    width: 60vmin;
+}
+
+
+.box {
+    border-radius: 2rem;
+    box-shadow: #ef476f;
+    height: 18vmin;
+    width: 18vmin;
+    color: #fffcf9;
+    background-color: #ef476f;
+    line-height: 4rem;
+}
+
+.rest-game {
+    border-radius: 0.7rem;
+    box-shadow: #ef476f;
+    height: 6vmin;
+    width: 15vmin;
+    color: #fffcf9;
+    background-color: rgb(0, 0, 0);
+}
